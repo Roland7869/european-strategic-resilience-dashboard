@@ -1,0 +1,12 @@
+﻿# European Strategic Resilience Dashboard
+
+Packaged release (Docker-based, self-hosted).
+
+## Install
+1. Unzip `european-strategic-resilience-dashboard.zip`
+2. Windows: `.\install.ps1`  ·  Linux/macOS: `./install.sh`
+3. Open http://localhost:3000 (or http://<your-LAN-IP>:3000)
+
+Set your LAN IP in `.env` (`NEXT_PUBLIC_API_URL`) before building for network access.
+Prerequisites: Docker (+ Compose). LM Studio optional for AI features (port 1234).
+See `AI_SETUP_GUIDE.md` inside the zip for full details.
